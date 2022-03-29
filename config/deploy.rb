@@ -1,5 +1,3 @@
-config/deploy.rb
-
 lock "3.17.0"
 set :application, "deploy-test"
 set :repo_url, "https://github.com/k-nishimoto-libertyfish/deploy-test.git" # 先ほどのURLを設定します。
