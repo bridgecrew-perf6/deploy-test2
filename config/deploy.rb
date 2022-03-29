@@ -1,7 +1,7 @@
 lock "3.17.0"
 set :application, "deploy-test"
 set :repo_url, "https://github.com/k-nishimoto-libertyfish/deploy-test.git" # 先ほどのURLを設定します。
-server "192.168.1.123", port: 2525, roles: [:app, :web, :db], primary: true 
+server "kentapro-VirtualBox", port: 2525, roles: [:app, :web, :db], primary: true 
 # 後ほどserver "192.～"の箇所に正しいポート番号を記述します。
 
 # user
